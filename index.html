@@ -1,36 +1,79 @@
 <!doctype html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>A Love Letter to Git</title>
-</head>
-<body>
-	<h1>To Git,</h1>
-	<h3>Setting Up</h3>
-	<ul>
-		<li>git init</li>
-		<li>git status</li>
-		<li>git config</li>
-	</ul>
+  <head>
+    <meta charset="utf-8">
+    <title>A Git Love Letter</title>
+  </head>
+  <body>
+    <header>
+        <h1>A Git Love Letter (Tutorial)</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>About</li>
+        <li>Getting Started</li>
+        <li>Branches</li>
+        <li>Committing & Pushing</li>
+        <li>Troubleshooting</li>
+      </ul>
+    </nav>
+    
+    <main>
+      <h1>Dear Git,</h1>
+      <h3>We've finally made it,</h3>
+      <p>O backbone of GitHub. Even though you're intimidating to the command-line newbie<br>
+      you've saved my life on multiple occasions when <br>
+      one mistake I make breaks all my code <br>
+      and wow, version control. I can just roll back a commit and start afresh. Thanks. Tell me what you think about this tutorial I've written up.</p>
+      <h3>As far as setting up goes</h3>
+      <p>I'm assuming Git is already downloaded and usable from the command line. <br>
+        Let's work on some setting configurations. Git needs to know your name right? Open up that command line. <br>
+        <code>
+          git config --global user.name "My Name"<br>
+          git config --global user.email myemail@provider.com<br>
+        </code>
+      </p>
+      <p>Navigate to the repository you want version control on --
+        Git, let's <strong>git init</strong> a repo locally. So now we've made <br>
+        your local repo a Git repo. Meanwhile, find your friend GitHub and make a repository <em>with the same name</em> on there.<br>
+        If your repository is empty,
+        <ul>
+          <li>Simply create a file and add to your repo (like a README). We'll cover commit & pushing later.</li>
+        </ul>
+        Otherwise,
+        <ul>
+          <li>Add a remote using <br>
+          <code>git remote add origin https://github.com/yourname/yourreponame.git <br>
+          git push -u origin master
+          </code>
+          </li>
+        </ul>
+      </p>
+      <p>You can check the status of the modifications you've made to your repo using <br>
+      <code>git status</code> <br>
+      You sure you like that? Sweet, let's...</p>
+      <h3>Get ready to commit</h3>
+      <p>Well what exactly is this elusive "commit" thing everyone talks about? You can think of it as saving something formally -- yeah, you've saved your files, but this time you approve of the changes and would like to give it a little ID and timestamp.</p>
 
-	<h3>Branching</h3>
-	<ul>
-		<li>git branch</li>
-		<li>git checkout [paste hash]</li>
-		<li>git check -b [newbranchname] </li>
-		<li>git merge [branchname you made changes on]</li>
-	</ul>
+      <h3>Branching</h3>
+      <ul>
+          <li>git branch</li>
+          <li>git checkout [paste hash]</li>
+          <li>git check -b [newbranchname] </li>
+          <li>git merge [branchname you made changes on]</li>
+      </ul>
 
-	<h3>Committing & Pushing</h3>
-	<ul>
-		<li>stuff you know</li>
-	</ul>
+      <h3>Committing & Pushing</h3>
+      <ul>
+          <li>stuff you know</li>
+      </ul>
 
-	<h3>Troubleshooting</h3>
-	<ul>
-		<li>do I really want to go here</li>
-		<li>Google is your friend. StackOverflow also.</li>
-	</ul>
+      <h3>Troubleshooting</h3>
+      <ul>
+          <li>do I really want to go here</li>
+          <li>Google is your friend. StackOverflow also.</li>
+      </ul>
+    </main>
 
-</body>
+  </body>
 </html>
