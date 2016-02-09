@@ -53,7 +53,19 @@
       <code>git status</code> <br>
       You sure you like that? Sweet, let's...</p>
       <h3>Get ready to commit</h3>
-      <p>Well what exactly is this elusive "commit" thing everyone talks about? You can think of it as saving something formally -- yeah, you've saved your files, but this time you approve of the changes and would like to give it a little ID and timestamp.</p>
+      <p>Well what exactly is this elusive "commit" thing everyone talks about? You can think of it as saving something formally -- yeah, you've saved your files, but this time you approve of the changes and would like to give it a little ID and timestamp.<br>
+      Which means down the road when you do something catastrophic to your program or project, you can find the last working commit and revert your code!</p>
+      <p><strong> So commit early and often. Use your best judgement as to what "often" means.</strong> <br>
+      Oh wait. You need the command. Right. <br>
+      <code>git commit -m "Your commit message here"</code><br>
+      Keep that line short and sweet (and descriptive) so you can easily look through your commit history to find things you changed or added.</p>
+
+      <h3>Then push!</h3>
+      <p>Ok, so you've committed your code, but GitHub doesn't know that because you've done that all locally. It's not a good idea to keep secrets between Git and GitHub, they're friends after all. Let GitHub know you've committed changes by <br>
+      <code> git add filenamehere <br>
+      git push
+      </code><br>
+      At this point, Git may prompt you for your username and password. To speed up this process later on, you can set keys specific to you computer so you aren't prompted each time.</p>
 
       <h3>Branching</h3>
       <ul>
