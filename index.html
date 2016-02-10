@@ -67,25 +67,24 @@
       </code><br>
       At this point, Git may prompt you for your username and password. To speed up this process later on, you can set keys specific to you computer so you aren't prompted each time.</p>
 
-      <h3>Branching</h3>
-      <ul>
-          <li>git branch</li>
-          <li>git checkout [paste hash]</li>
-          <li>git check -b [newbranchname] </li>
-          <li>git merge [branchname you made changes on]</li>
-      </ul>
-
-      <h3>Committing & Pushing</h3>
-      <ul>
-          <li>stuff you know</li>
-      </ul>
+      <h3>To experiment with tentative changes,</h3>
+      <p>You can create a <strong>git branch</strong> using <br>
+      <code>git checkout -b mybranchname</code> <br>
+      This will automatically switch you your newest branch. Think of it as your sandbox -- any changes you make here will not be reflected on your master branch. Break things, write infinite loops, improve your code, whatever. </p>
+      <p>When you're ready to merge your branched changes to your master branch, <br>
+      <code>git branch    # checks which branch you're on <br>
+      git merge mybranchname    # merges mybranchname onto master branch</code>
+      <p>And there you have it! Basic branching. If you want to switch between branches, simply <strong>git checkout branchname</strong></p>
 
       <h3>Troubleshooting</h3>
-      <ul>
-          <li>do I really want to go here</li>
-          <li>Google is your friend. StackOverflow also.</li>
-      </ul>
+      <p>Not much to say here except that Google is your friend.<br>
+      Especially everything in the realm of resets and merge conflicts.</p>
     </main>
+
+    <footer>
+    <h4>Fifty cheers for command lines and version control,</h4><br>
+    <p>Caleb</p>
+    </footer>
 
   </body>
 </html>
