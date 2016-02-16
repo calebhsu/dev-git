@@ -34,14 +34,14 @@ body {
 }
 
 code {
-  margin: 0.5em 0;
+  margin: 0 2em;
 }
 
 h1, h2, h3, h4 {
   color: rgba(137, 121, 20, 1);
   font-family: 'Josefin Sans', 'Book Antiqua', serif;
   font-weight: bold;
-  margin: 0.5em 0;
+  margin: 1em 0 0.2em;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -60,6 +60,8 @@ li {
 main {
   top: 5%;
   margin: 0em 20em;
+  margin-bottom: 3%;
+  max-width: 60%
 }
 
 nav {
@@ -79,6 +81,11 @@ nav a {
   -webkit-transition: 0.3s ease-in-out;
 }
 
+p {
+  line-height: 1.4em;
+}
+
+/* Special */
 .circle {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 2.5em;
@@ -103,12 +110,6 @@ nav a {
   color: #fff;
 }
 
-
-p {
-  line-height: 1.4em;
-}
-
-/* Special */
 #sidebar {
   background: url(https://static.pexels.com/photos/9248/nature-summer-sun-leaf-large.jpg) no-repeat center;
   background-size: cover;
@@ -121,4 +122,3 @@ p {
   width: 180px;
   z-index: -1;
 }
-
