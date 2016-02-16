@@ -24,6 +24,19 @@
 }
 
 /* Page Styles */
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Josefin Sans', 'Calibri', sans-serif;
+  white-space: nowrap
+}
+
+code {
+  margin: 0.5em 0;
+}
+
 h1, h2, h3, h4 {
   color: rgba(137, 121, 20, 1);
   font-family: 'Josefin Sans', 'Book Antiqua', serif;
@@ -33,27 +46,60 @@ h1, h2, h3, h4 {
   white-space: nowrap;
 }
 
-
 header {
   font-family: 'Josefin Sans', 'Calibri', sans-serif;
   font-size: 0.8em;
-  margin: 3em 1em;
+  margin: 3em 1em 0;
   text-transform: lowercase;
+}
+
+li {
+  margin: 0.5em 3em;
 }
 
 main {
   margin: 0em 20em;
 }
 
-nav {
-  font-family: 'Josefin Sans', 'Calibri', sans-serif;
+nav a {
+  color: rgba(96, 85, 14, 1);
+  font-family: 'Lato', 'Calibri', sans-serif;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  -o-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
 }
+
+.circle {
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 50px;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  height:100px;
+  line-height: 100px;
+  text-align: center;
+  width: 100px;
+  -o-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+}
+
+.circle:hover {
+  background: rgba(137, 121, 20, 0.75);
+}
+
+.circle:hover a {
+  color: #fff;
+}
+
 
 p {
-  font-family: 'Josefin Sans', 'Calibri', sans-serif;
-  white-space: nowrap
+  line-height: 1.4em;
 }
-
 
 /* Special */
 #sidebar {
@@ -67,3 +113,4 @@ p {
   position: fixed;  
   width: 180px;
 }
+
