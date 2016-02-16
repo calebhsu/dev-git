@@ -30,14 +30,25 @@ a {
 
 body {
   font-family: 'Josefin Sans', 'Calibri', sans-serif;
-  white-space: nowrap
+  white-space: nowrap;
+  font-size: 0.9em;
 }
 
 code {
   margin: 0 2em;
 }
 
-h1, h2, h3, h4 {
+h1 {
+  color: rgba(137, 121, 20, 1);
+  font-family: 'Josefin Sans', 'Book Antiqua', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1em 0 0.2em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+h2, h3, h4 {
   color: rgba(137, 121, 20, 1);
   font-family: 'Josefin Sans', 'Book Antiqua', serif;
   font-weight: bold;
@@ -48,7 +59,7 @@ h1, h2, h3, h4 {
 
 header {
   font-family: 'Josefin Sans', 'Calibri', sans-serif;
-  font-size: 0.8em;
+  font-size: 0.7em;
   margin: 3em 1em 0;
   text-transform: lowercase;
 }
@@ -59,21 +70,22 @@ li {
 
 main {
   top: 5%;
-  margin: 0em 20em;
+  margin: 0em 18em;
   margin-bottom: 3%;
-  max-width: 60%
 }
 
 nav {
+  display: block;
   float: left;
-  margin: 0 3.5em;
+  margin: 0em 5em;
   position: fixed;
+  top: 1%;
 }
 
 nav a {
   color: rgba(96, 85, 14, 1);
   font-family: 'Lato', 'Calibri', sans-serif;
-  font-size: 0.75em;
+  font-size: 0.8em;
   text-transform: uppercase;
   -o-transition: 0.3s ease-in-out;
   -ms-transition: 0.3s ease-in-out;
@@ -82,7 +94,12 @@ nav a {
 }
 
 p {
+  font-size: 0.9em;
   line-height: 1.4em;
+}
+
+ul {
+  font-size: 0.9em;
 }
 
 /* Special */
@@ -91,9 +108,8 @@ p {
   border-radius: 2.5em;
   color: #fff;
   display: block;
-  font-size: 1em;
   height: 5em;
-  line-height: 100px;
+  line-height: 80px;
   text-align: center;
   width: 5em;
   -o-transition: 0.3s ease-in-out;
