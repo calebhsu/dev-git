@@ -60,14 +60,14 @@ li {
 
 main {
   top: 5%;
-  margin: 0em 18em;
+  margin: 0em 19em;
   margin-bottom: 3%;
 }
 
 nav {
   display: block;
   float: left;
-  margin: 0em 4.5em;
+  margin: 0em 6.5em;
   position: fixed;
   top: 5%;
 }
@@ -99,7 +99,7 @@ ul {
   color: #fff;
   display: block;
   height: 5em;
-  line-height: 90px;
+  line-height: 5em;
   text-align: center;
   width: 5em;
   -o-transition: 0.3s ease-in-out;
