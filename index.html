@@ -2,26 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
+
+    <!-- CSS -->
     <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Fonts --> 
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
     <title>A Git Love Letter</title>
   </head>
+
   <body>
-    <header>
+    <header class="centerme">
         <h1>A Git Love Letter (Tutorial)</h1>
     </header>
+    
+    <div id="sidebar"></div>
+
     <nav>
       <ul>
-        <li>About</li>
-        <li>Getting Started</li>
-        <li>Branches</li>
-        <li>Committing & Pushing</li>
-        <li>Troubleshooting</li>
+        <li><a href="#about">About<a></li>
+        <li><a href="#about">Getting Started<a></li>
+        <li><a href="#about">Branches<a></li>
+        <li><a href="#about">Committing & Pushing<a></li>
+        <li><a href="#about">Troubleshooting<a></li>
       </ul>
     </nav>
     
     <main>
       <h1>Dear Git,</h1>
-      <h3>We've finally made it,</h3>
+      <h3 id="about">We've finally made it,</h3>
       <p>O backbone of GitHub. Even though you're intimidating to the command-line newbie<br>
       you've saved my life on multiple occasions when <br>
       one mistake I make breaks all my code <br>
@@ -80,12 +93,13 @@
       <h3>Troubleshooting</h3>
       <p>Not much to say here except that Google is your friend.<br>
       Especially everything in the realm of resets and merge conflicts.</p>
+
+      <h4>Fifty cheers for command lines and version control,</h4><br>
+      <p>Caleb</p>
     </main>
 
-    <footer>
-    <h4>Fifty cheers for command lines and version control,</h4><br>
-    <p>Caleb</p>
-    </footer>
+
+
 
   </body>
 </html>
