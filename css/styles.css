@@ -38,17 +38,7 @@ code {
   margin: 0 2em;
 }
 
-h1 {
-  color: rgba(137, 121, 20, 1);
-  font-family: 'Josefin Sans', 'Book Antiqua', serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin: 1em 0 0.2em;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-h2, h3, h4 {
+h1, h2, h3, h4 {
   color: rgba(137, 121, 20, 1);
   font-family: 'Josefin Sans', 'Book Antiqua', serif;
   font-weight: bold;
@@ -77,9 +67,9 @@ main {
 nav {
   display: block;
   float: left;
-  margin: 0em 5em;
+  margin: 0em 4.5em;
   position: fixed;
-  top: 1%;
+  top: 5%;
 }
 
 nav a {
@@ -94,12 +84,12 @@ nav a {
 }
 
 p {
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 1.4em;
 }
 
 ul {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 /* Special */
@@ -109,7 +99,7 @@ ul {
   color: #fff;
   display: block;
   height: 5em;
-  line-height: 80px;
+  line-height: 90px;
   text-align: center;
   width: 5em;
   -o-transition: 0.3s ease-in-out;
